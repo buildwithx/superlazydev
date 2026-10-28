@@ -4,6 +4,18 @@ SuperLazyDev is a collection of reusable Codex skills. Each skill gives Codex a 
 
 This repository is intended to grow: add each new skill as its own directory under `skills/` so its instructions, references, and metadata stay together.
 
+![SuperLazyDev cover](assets/superlazydev-cover.png)
+
+## Install a skill
+
+From the root of the project where you want to use the skill, install it for Codex with:
+
+```sh
+npx skills add buildwithx/superlazydev --skill frontend-engineer --agent codex
+```
+
+This installs the skill in the project's `.agents/skills/` directory. To install every skill in this repository, replace `frontend-engineer` with `'*'`. Add `--global` to install the skill for your user account instead of the current project. The [`skills` CLI](https://github.com/vercel-labs/skills) requires Node.js and npm.
+
 ## Available skills
 
 ### `frontend-engineer`
