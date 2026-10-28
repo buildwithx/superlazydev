@@ -11,7 +11,7 @@
 ## Choose commands from repository evidence
 
 | Stack | Typical commands (confirm project conventions first) |
-|---|---|
+| --- | --- |
 | Flutter/Dart | `dart format --output=none --set-exit-if-changed .`, `flutter analyze`, `flutter test` |
 | npm | `npm run lint`, `npm run typecheck`, `npm test`, `npm run build` |
 | pnpm | `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build` |
