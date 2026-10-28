@@ -11,10 +11,10 @@ This repository is intended to grow: add each new skill as its own directory und
 From the root of the project where you want to use the skill, install it for Codex with:
 
 ```sh
-npx skills add buildwithx/superlazydev --skill frontend-engineer --agent codex
+npx skills add buildwithx/superlazydev --skill your-skill-name --agent codex
 ```
 
-This installs the skill in the project's `.agents/skills/` directory. To install every skill in this repository, replace `frontend-engineer` with `'*'`. Add `--global` to install the skill for your user account instead of the current project. The [`skills` CLI](https://github.com/vercel-labs/skills) requires Node.js and npm.
+Replace `your-skill-name` with the skill you want to install; for example, use `frontend-engineer` to install this repository's frontend skill. This installs the skill in the project's `.agents/skills/` directory. Use `'*'` to install every skill in this repository. Add `--global` to install the skill for your user account instead of the current project. The [`skills` CLI](https://github.com/vercel-labs/skills) requires Node.js and npm.
 
 ## Available skills
 
@@ -94,6 +94,10 @@ git diff --check
 
 Also read each changed Markdown file in full and confirm that linked files, example paths, and documented commands match the repository. Do not report a build or test as passing when no such command exists.
 
-## Contributing
+## Fund or sponsor
 
-Keep changes focused on the skill being added or updated and its documentation. Do not commit credentials, tokens, or private project data. Use a concise Conventional Commit subject when committing, such as `docs: add database-review skill`.
+There is no sponsorship platform configured for this project yet. If you would like to fund or sponsor SuperLazyDev, [open an issue](https://github.com/buildwithx/superlazydev/issues) to discuss it.
+
+## Contribute
+
+Open an issue to report a problem or propose a change, then submit a focused pull request. For skill changes, follow the [skill writing guidelines](#skill-writing-guidelines) and run the [documentation checks](#validate-documentation-changes). Do not commit credentials, tokens, or private project data. Use a concise Conventional Commit subject when committing, such as `docs: add database-review skill`.
