@@ -39,6 +39,24 @@ $frontend-engineer Refactor this component,
 preserve behavior, and run relevant tests.
 ```
 
+### `express-typescript-backend`
+
+Helps Codex implement, debug, refactor, test, review, and secure Express.js backends written in TypeScript. It first checks the repository's stack and conventions, then uses focused backend guidance for architecture, implementation, security, and validation.
+
+Example request:
+
+```text
+$express-typescript-backend Review this API change for security,
+backwards compatibility, and missing tests.
+```
+
+```text
+$express-typescript-backend
+
+Implement a REST API for user management
+using the existing project architecture.
+```
+
 ## Repository layout
 
 ```text
@@ -54,6 +72,9 @@ Current skill files:
 - `skills/frontend-engineer/SKILL.md` — main instructions and workflow.
 - `skills/frontend-engineer/references/` — framework-specific and shared frontend guidance.
 - `skills/frontend-engineer/agents/openai.yaml` — display name and short description.
+- `skills/express-typescript-backend/SKILL.md` — main instructions and workflow.
+- `skills/express-typescript-backend/references/` — stack detection, architecture, implementation, security, and testing guidance.
+- `skills/express-typescript-backend/agents/openai.yaml` — display name and short description.
 
 ## Add a skill
 
