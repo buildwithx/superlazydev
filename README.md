@@ -1,1 +1,1 @@
-# SuperLazyLeaner
+# SuperLazyDev
