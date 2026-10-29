@@ -22,6 +22,7 @@ Read the guidance that matches the work. Read more than one when a change crosse
 - For folder layout, feature boundaries, shared UI, and infrastructure placement, read [references/project-structure.md](references/project-structure.md).
 - For server state, client state, persistence, API boundaries, and secrets, read [references/state-and-data.md](references/state-and-data.md).
 - For routes, layouts, deep links, native dependencies, and platform-specific code, read [references/expo-router-and-native.md](references/expo-router-and-native.md).
+- For Expo TypeScript setup and test strategy, read [references/typescript-and-testing.md](references/typescript-and-testing.md).
 
 ## Architecture workflow
 

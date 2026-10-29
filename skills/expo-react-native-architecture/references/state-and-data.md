@@ -26,3 +26,9 @@ Do not mirror all server data into a global client store when the server-state l
 - Keep secrets out of source control and client bundles. Anything shipped in a mobile app should be treated as potentially inspectable.
 - Keep environment configuration explicit and compatible with Expo's public/private environment variable behavior.
 - Centralize storage adapters and third-party SDK configuration so security and initialization rules are consistent.
+
+## Official documentation
+
+- [TanStack Query for React](https://tanstack.com/query/latest/docs/framework/react/overview)
+- [Zustand introduction](https://zustand.docs.pmnd.rs/getting-started/introduction)
+- [Expo SecureStore](https://docs.expo.dev/versions/latest/sdk/securestore/)

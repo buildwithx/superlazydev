@@ -83,7 +83,7 @@ Current skill files:
 - `skills/frontend-engineer/references/` — framework-specific and shared frontend guidance.
 - `skills/frontend-engineer/agents/openai.yaml` — display name and short description.
 - `skills/expo-react-native-architecture/SKILL.md` — Expo and React Native architecture guidance.
-- `skills/expo-react-native-architecture/references/` — focused guidance for project structure, state and data boundaries, and Expo Router/native integration.
+- `skills/expo-react-native-architecture/references/` — focused guidance for project structure, state and data boundaries, Expo Router/native integration, and TypeScript/testing.
 - `skills/expo-react-native-architecture/agents/openai.yaml` — display name and short description.
 - `skills/express-typescript-backend/SKILL.md` — main instructions and workflow.
 - `skills/express-typescript-backend/references/` — stack detection, architecture, implementation, security, and testing guidance.

@@ -83,3 +83,9 @@ Do not force every feature to have every folder. Keep feature-specific component
 - A feature should not reach into another feature's private implementation. Expose a deliberate public module or promote genuinely generic code when cross-feature reuse becomes real.
 - Avoid circular dependencies and catch-all files such as `helpers.ts`, `common.ts`, or `api.ts` that collect unrelated responsibilities.
 - Prefer named exports for reusable components and utilities unless the project has a different convention. Expo Router route modules should export the required default route component.
+
+## Official documentation
+
+- [Expo documentation](https://docs.expo.dev/)
+- [React Native documentation: Getting started](https://reactnative.dev/docs/getting-started)
+- [TypeScript with Expo](https://docs.expo.dev/guides/typescript/)

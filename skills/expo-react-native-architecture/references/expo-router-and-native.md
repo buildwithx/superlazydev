@@ -23,3 +23,9 @@ Use this reference when adding or moving routes, changing navigation behavior, o
 - Use React Native and Expo APIs appropriate to the target platform; do not assume browser-only APIs are available on native platforms.
 - Use platform-specific files such as `.ios.tsx` and `.android.tsx` only when behavior or native APIs truly differ. Keep shared behavior in the feature and make platform differences explicit at the boundary.
 - Preserve platform-specific behavior when refactoring, and verify affected platforms when the repository makes those checks available.
+
+## Official documentation
+
+- [Expo documentation](https://docs.expo.dev/)
+- [Expo Router authentication](https://docs.expo.dev/router/advanced/authentication/)
+- [React Native documentation: Getting started](https://reactnative.dev/docs/getting-started)
