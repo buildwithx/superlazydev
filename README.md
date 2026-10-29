@@ -39,6 +39,16 @@ $frontend-engineer Refactor this component,
 preserve behavior, and run relevant tests.
 ```
 
+### `expo-react-native-architecture`
+
+Helps Codex structure, extend, refactor, and review Expo and React Native applications using Expo Router, feature-first organization, and clear native integration boundaries.
+
+Example request:
+
+```text
+$expo-react-native-architecture Add a profile feature using the app's existing Expo and state management conventions.
+```
+
 ### `express-typescript-backend`
 
 Helps Codex implement, debug, refactor, test, review, and secure Express.js backends written in TypeScript. It first checks the repository's stack and conventions, then uses focused backend guidance for architecture, implementation, security, and validation.
@@ -72,6 +82,9 @@ Current skill files:
 - `skills/frontend-engineer/SKILL.md` — main instructions and workflow.
 - `skills/frontend-engineer/references/` — framework-specific and shared frontend guidance.
 - `skills/frontend-engineer/agents/openai.yaml` — display name and short description.
+- `skills/expo-react-native-architecture/SKILL.md` — Expo and React Native architecture guidance.
+- `skills/expo-react-native-architecture/references/` — focused guidance for project structure, state and data boundaries, and Expo Router/native integration.
+- `skills/expo-react-native-architecture/agents/openai.yaml` — display name and short description.
 - `skills/express-typescript-backend/SKILL.md` — main instructions and workflow.
 - `skills/express-typescript-backend/references/` — stack detection, architecture, implementation, security, and testing guidance.
 - `skills/express-typescript-backend/agents/openai.yaml` — display name and short description.
